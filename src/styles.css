@@ -1,0 +1,167 @@
+/* You can add global styles to this file, and also import other style files */
+@import '~@angular/material/prebuilt-themes/deeppurple-amber.css';
+
+.dialog1 .mat-dialog-container{
+    border-radius: 10px;
+    width:500px;
+}
+@media (max-width: 576px) {
+    .dialog1 .mat-dialog-container{
+        width:100%;
+    }
+} 
+
+
+ .navbar .logo{
+     color:#0099FF;
+     font-size:21px;
+     padding: 0px;
+     font-family: Arial;
+ }
+ .navbar .logo:hover{
+     filter:brightness(75%);
+     -webkit-filter: brightness(75%);
+     transition: 0.5s;
+ }
+
+ .container{
+    padding-top:10px;
+}
+
+.navbar-nav .nav-item .navLink{
+    color:white;
+    letter-spacing: 1px;
+    font-family: Helvetica;
+}
+
+.navbar-nav .nav-item .navLink:hover{
+    border-bottom: 1px solid;
+    padding-top:7px;
+    color:white;
+}
+
+.navbar .navbar-toggler .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 31 31' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0,153,255, 0.9)' stroke-width='4' stroke-linecap='round' stroke-miterlimit='22' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+    padding:22px;
+}
+
+.navbar .navbar-toggler{
+    padding:0px;
+    margin:0px; 
+    border-width:0px;
+}
+
+.sec1{
+    padding-bottom: 20px;
+
+}
+
+ /* General Font 1 Section Start */
+.j1{
+    font-size:50px;
+    font-weight: bold;
+    color:white;
+}
+.j2{
+    
+}
+@media (max-width: 576px) { 
+    .j1{
+        font-size:40px;
+    }   
+} 
+
+.l1{
+    font-size: 40px;
+    font-weight: bold;
+    color:#363636;
+}
+.l2{
+    font-size: 30px;
+    font-weight: bold;
+    color:#363636;
+}
+.m1{
+    font-size:25px;
+    color:#525252;
+    font-weight: bold;
+}
+.m2{
+    font-size:20px;
+    color:#525252;
+    font-weight: bold;
+}
+.s1{
+    font-size:18px;
+    color:#525252; 
+}
+.s2{
+    font-size:15px;
+    color:#424242;        
+}
+.s2bold{
+    font-size:15px;
+    color:#424242;        
+    font-weight: bold;
+}
+.s2blue{
+    color:#0099FF;
+    font-size: 15px;
+}
+.s3{
+    font-size:14px;
+    color:#424242;
+}
+.s3Blue{
+    font-size: 14px;
+    color:#0099FF;
+}
+.s3bold{
+    font-size:13px;
+    color:#4b4b4b;  
+    font-weight: bold;
+}
+.s4{
+    font-size: 13px;
+    color:#424242;
+}
+s4{
+    font-size:13px;
+    color:#0099FF;
+}
+.error-feedback{
+    color:#b30000;
+    font-size: 18px;
+    text-align:center;
+}
+.invalid_feedback{
+    color:red;
+    font-size: 12px;
+}
+
+/* General Button styles */
+.btn_blue{
+    background-color: #0099FF;
+    width: 85px;
+    height: 30px;
+    font-size:13px; 
+    border-width:0px;
+    padding:5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom:2px;
+    right:20px;
+    color:white;
+    cursor:pointer;
+}
+
+.btn_blue_large{
+    background-color: #0099FF;    
+    margin-bottom: 13px;
+    padding:5px 0px 5px 0px;
+    text-decoration: bold;
+    color:white;
+    cursor:pointer;
+    border-color:white;
+    border-width:2px;
+}
